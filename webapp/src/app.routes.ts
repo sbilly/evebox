@@ -30,6 +30,7 @@ import {EventComponent} from "./event.component";
 import {AlertsComponent} from "./alerts.component";
 import {AlertReportComponent} from "./reports/alerts-report.component";
 import {DNSReportComponent} from "./reports/dns-report.component";
+import {StatsComponent} from "./stats.component";
 
 export const routes:RouterConfig = [
     {
@@ -58,6 +59,10 @@ export const routes:RouterConfig = [
     ,
     {
         path: "reports/dns", component: DNSReportComponent,
+    }
+    ,
+    {
+        path: "metrics", component: StatsComponent
     }
     ,
     // Let the inbox by the default route.
