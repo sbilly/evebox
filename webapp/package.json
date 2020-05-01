@@ -25,7 +25,7 @@
     "codemirror": "^5.15.2",
     "core-js": "^2.4.0",
     "font-awesome": "^4.6.3",
-    "jquery": "^2.2.4",
+    "jquery": "^3.5.0",
     "metrics-graphics": "2.8.0",
     "moment": "^2.13.0",
     "mousetrap": "^1.6.0",
